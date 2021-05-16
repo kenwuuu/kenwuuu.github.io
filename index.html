@@ -1,40 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Apple-like Password Generator</h1>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <p>Generates a password similar to Apple generated passwords.</p>
+    
+    <p>Three groups of six characters, one group with an uppercase character and one with a number, all separated by a hyphen.</p>
 
+    <button onclick="generate_password()">Click me</button>
 
-  <link rel="stylesheet" href="index.css">
-
-
-  <a onclick="TogetherJS(this); return false;"><img src="https://togetherjs.com/images/start-togetherjs-blue.png" style="width: 135px" /></a>
-
-  <div class="btn-group btn-group-justified" style="margin-right: auto; margin-top: 10px; width: 70%;"> 
-    <a class="btn btn-info color-picker upper-button">Blue</a>          
-    <a class="btn btn-success color-picker">Green</a>
-    <a class="btn btn-warning color-picker">Yellow</a>
-    <a class="btn btn-danger color-picker">Red</a>
-    <a class="btn btn-success color-picker black-pick upper-button" style="border-bottom-width: 0px;">Black</a>
-  </div>
-  <div class="clearfix"></div>
-
-  <div id="sketchContainer" style="width: 70%; height: 300px; border: 1px solid rgba(0,0,0,0.2)"><canvas id="sketch"></canvas></div>
-
-  <div class="btn-group btn-group-justified" style="margin-right: auto; width: 70%;"> 
-    <a class="btn btn-info user-color-pick bottom-button" style="width: 30%;">User Color</a>
-    <a class="btn btn-success plus-size" style="width: 15%;">
-      <i class="fa fa-plus-square"></i>
-    </a>
-    <a class="btn btn-warning clear" style="width: 15%;">
-      <i class="fa fa-times-circle"></i>
-    </a>
-    <a class="btn btn-danger minus-size" style="width: 15%;">
-      <i class="fa fa-minus-square"></i>
-    </a>
-    <a class="btn btn-default eraser bottom-button" style="width: 35%; border-top-width: 0px;">
-      <i class="fa fa-eraser"></i>
-    </a>
-  </div>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-<script src="https://togetherjs.com/togetherjs-min.js"></script>
-<script src="index.js" async></script>
+    <p id="password_output"></p>
+  </body>
+</html>
