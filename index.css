@@ -1,13 +1,3 @@
-.upper-button {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-
-.bottom-button {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-}
-
 .black-pick:hover {
     background-color: #000;
     border-color: #000;
